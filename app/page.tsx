@@ -8,7 +8,8 @@ export default function Home() {
           Welcome
         </h1>
         <p className="mt-3 text-sm sm:text-base text-foreground/70">
-          This is a simple Next.js homepage. Explore viewport height examples below.
+          This is a simple Next.js app demonstrating different Tailwind CSS
+          height utilities related to viewport height.
         </p>
 
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3">

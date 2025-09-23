@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Viewport height demo with Tailwind classes
 
-## Getting Started
+This app demonstrates Tailwind CSS height utilities using the new viewport units, with simple, consistent styling across routes.
 
-First, run the development server:
+Stack:
+
+- Next.js 15
+- React 19
+- Tailwind CSS v4
+
+### Routes
+
+- /h-screen — h-screen (full viewport height)
+- /h-dvh — h-dvh (dynamic viewport height)
+- /h-svh — h-svh (small viewport height)
+- /h-lvh — h-lvh (large viewport height)
+- /h-full — h-full (child fills parent height)
+
+All demo pages share a minimal, unified style so you can focus on the height behavior.
+
+### Quick start
+
+Install dependencies and run the dev server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000 and navigate to the routes above.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Notes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- h-full requires the parent element to have an explicit height. If you want a page using h-full to fill the viewport, ensure a parent sets height (e.g., add `h-screen` to a wrapper or the `body`).
 
-## Learn More
+### Links
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Tailwind CSS height docs: https://tailwindcss.com/docs/height
+- Next.js docs: https://nextjs.org/docs
