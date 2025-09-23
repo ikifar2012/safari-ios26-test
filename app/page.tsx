@@ -28,6 +28,15 @@ export default function Home() {
           <Card href="/h-full" title="h-full">
             Tailwind class where child fills its parent height.
           </Card>
+          <Card href="/size-max" title="size-max">
+            Tailwind class for maximum content size.
+          </Card>
+          <Card href="/size-min" title="size-min">
+            Tailwind class for minimum content size.
+          </Card>
+          <Card href="/size-fit" title="size-fit">
+            Tailwind class for fit content size.
+          </Card>
         </div>
 
         <footer className="mt-10 text-xs text-foreground/60">
