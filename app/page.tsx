@@ -25,6 +25,9 @@ export default function Home() {
           <Card href="/h-lvh" title="h-lvh">
             Tailwind class for large viewport height.
           </Card>
+          <Card href="/h-110vh" title="h-[110vh]">
+            Arbitrary value height: 110vh.
+          </Card>
         </div>
         <footer className="mt-10 text-xs text-foreground/60">
           Built with Next.js 15 and Tailwind CSS 4.

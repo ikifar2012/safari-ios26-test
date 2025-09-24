@@ -1,6 +1,6 @@
 "use client";
 
-export default function HSvh() {
+export default function H110vh() {
     return (
         <main className="h-[110vh] bg-pink-500 flex items-center justify-center p-4">
             <div className="text-center">
