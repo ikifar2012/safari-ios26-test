@@ -25,14 +25,7 @@ export default function Home() {
           <Card href="/h-lvh" title="h-lvh">
             Tailwind class for large viewport height.
           </Card>
-          <Card href="/h-full" title="h-full">
-            Tailwind class where child fills its parent height.
-          </Card>
-          <Card href="/h-auto" title="h-auto">
-            Tailwind class for automatic height based on content.
-          </Card>
         </div>
-
         <footer className="mt-10 text-xs text-foreground/60">
           Built with Next.js 15 and Tailwind CSS 4.
         </footer>
